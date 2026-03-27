@@ -8,6 +8,14 @@ import { Component } from '@angular/core';
   styleUrl: './hero-component.css',
 })
 export class HeroComponent {
+
+  scrollTo(sectionId: string) {
+  const el = document.getElementById(sectionId);
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
   dryFruits: DryFruit[] = [
   {
     name: 'Strawberry Slices',
