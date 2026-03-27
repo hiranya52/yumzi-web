@@ -6,80 +6,89 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Yumzi | Crunch the Vibe</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  <link rel="icon" type="image/png" href="yumzi logo.png">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@400;500;600;700&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
   <script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-              "surface-bright": "#fff4f6",
-              "error-container": "#fb5151",
-              "surface-container-lowest": "#ffffff",
-              "surface": "#fff4f6",
-              "primary-fixed": "#ff7198",
-              "on-tertiary-container": "#4e0079",
-              "on-primary": "#ffeff0",
-              "surface-container-high": "#f8dbe5",
-              "surface-container": "#fce1eb",
-              "on-secondary-container": "#673e00",
-              "on-primary-fixed-variant": "#5e0027",
-              "background": "#fff4f6",
-              "secondary-fixed": "#ffc789",
-              "on-primary-fixed": "#000000",
-              "tertiary-dim": "#7428a4",
-              "secondary": "#835000",
-              "on-error-container": "#570008",
-              "outline-variant": "#bda8af",
-              "tertiary-container": "#d797ff",
-              "surface-tint": "#b60051",
-              "on-tertiary-fixed": "#2a0043",
-              "primary-container": "#ff7198",
-              "inverse-on-surface": "#ac989f",
-              "inverse-surface": "#160b10",
-              "primary-fixed-dim": "#ff5389",
-              "surface-container-highest": "#f3d5e0",
-              "primary": "#b60051",
-              "on-surface": "#392b31",
-              "tertiary-fixed": "#d797ff",
-              "secondary-container": "#ffc789",
-              "on-tertiary-fixed-variant": "#5b008c",
-              "on-surface-variant": "#68575e",
-              "on-primary-container": "#4d001e",
-              "on-secondary": "#fff0e4",
-              "on-tertiary": "#fdeeff",
-              "tertiary": "#8137b1",
-              "on-error": "#ffefee",
-              "on-secondary-fixed-variant": "#744600",
-              "inverse-primary": "#ff4c85",
-              "on-background": "#392b31",
-              "surface-variant": "#f3d5e0",
-              "error-dim": "#9f0519",
-              "primary-dim": "#a00047",
-              "outline": "#857279",
-              "surface-dim": "#ebccd8",
-              "secondary-dim": "#734500",
-              "tertiary-fixed-dim": "#cf83ff",
-              "on-secondary-fixed": "#4d2d00",
-              "secondary-fixed-dim": "#ffb55b",
-              "surface-container-low": "#ffecf2",
-              "error": "#b31b25"
-            },
-            fontFamily: {
-              "headline": ["Plus Jakarta Sans"],
-              "body": ["Be Vietnam Pro"],
-              "label": ["Be Vietnam Pro"]
-            },
-            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-bright": "#fff4f6",
+            "error-container": "#fb5151",
+            "surface-container-lowest": "#ffffff",
+            "surface": "#fff4f6",
+            "primary-fixed": "#ff7198",
+            "on-tertiary-container": "#4e0079",
+            "on-primary": "#ffeff0",
+            "surface-container-high": "#f8dbe5",
+            "surface-container": "#fce1eb",
+            "on-secondary-container": "#673e00",
+            "on-primary-fixed-variant": "#5e0027",
+            "background": "#fff4f6",
+            "secondary-fixed": "#ffc789",
+            "on-primary-fixed": "#000000",
+            "tertiary-dim": "#7428a4",
+            "secondary": "#835000",
+            "on-error-container": "#570008",
+            "outline-variant": "#bda8af",
+            "tertiary-container": "#d797ff",
+            "surface-tint": "#b60051",
+            "on-tertiary-fixed": "#2a0043",
+            "primary-container": "#ff7198",
+            "inverse-on-surface": "#ac989f",
+            "inverse-surface": "#160b10",
+            "primary-fixed-dim": "#ff5389",
+            "surface-container-highest": "#f3d5e0",
+            "primary": "#b60051",
+            "on-surface": "#392b31",
+            "tertiary-fixed": "#d797ff",
+            "secondary-container": "#ffc789",
+            "on-tertiary-fixed-variant": "#5b008c",
+            "on-surface-variant": "#68575e",
+            "on-primary-container": "#4d001e",
+            "on-secondary": "#fff0e4",
+            "on-tertiary": "#fdeeff",
+            "tertiary": "#8137b1",
+            "on-error": "#ffefee",
+            "on-secondary-fixed-variant": "#744600",
+            "inverse-primary": "#ff4c85",
+            "on-background": "#392b31",
+            "surface-variant": "#f3d5e0",
+            "error-dim": "#9f0519",
+            "primary-dim": "#a00047",
+            "outline": "#857279",
+            "surface-dim": "#ebccd8",
+            "secondary-dim": "#734500",
+            "tertiary-fixed-dim": "#cf83ff",
+            "on-secondary-fixed": "#4d2d00",
+            "secondary-fixed-dim": "#ffb55b",
+            "surface-container-low": "#ffecf2",
+            "error": "#b31b25"
           },
+          fontFamily: {
+            "headline": ["Plus Jakarta Sans"],
+            "body": ["Be Vietnam Pro"],
+            "label": ["Be Vietnam Pro"]
+          },
+          borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" },
         },
-      }
-    </script>
+      },
+    }
+  </script>
 </head>
+
 <body>
   <app-root></app-root>
 </body>
+
 </html>
