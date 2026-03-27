@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { HeroComponent } from '../../Components/hero-component/hero-component';
 import { FlavorBombsSection } from "../../Components/flavor-bombs-section/flavor-bombs-section";
+import { BrandStorySection } from "../../Components/brand-story-section/brand-story-section";
 
 
 @Component({
   selector: 'app-home',
-  imports: [HeroComponent, FlavorBombsSection],
+  imports: [HeroComponent, FlavorBombsSection, BrandStorySection],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
